@@ -4,11 +4,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "STTextView-Plugin-Neon",
+    name: "STTextView-Plugin-Neon-SQL",
     platforms: [.macOS(.v14), .iOS(.v16), .macCatalyst(.v16)],
     products: [
         .library(
-            name: "STTextView-Plugin-Neon",
+            name: "STTextView-Plugin-Neon-SQL",
             targets: ["STPluginNeon"]),
     ],
     dependencies: [
